@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challengue</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+</head>
+<body>
+    <header></header>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">
+                Introduce el texto a
+                <strong class="titulo-destaque">Codificar
+
+                </strong>         
+                <textarea name="" id="texto" class="presentacion__contenido__texto" placeholder="Ingrese el texto aqui"></textarea>
+                <div></div>
+                <a id="texto-sujerencia" >solo letras minusculas y sin acentos</a>
+                <div class="presentacion__enlaces">
+                    
+                    <button class="presentacion__enlaces__link" id="encri" onclick="encriptar()" href="">Encriptar¡</button>
+                    <button class="presentacion__enlaces__link" id="desc" onclick="desencriptar()" href="">Desencriptar¡</button>
+                </div>
+               
+        </section>
+        <div class="zonaImagen">
+            <img class="imagen" id="imagen" src="Muñeco.png" alt="">
+            <h2 class="text1" id="text1">Ningun mensaje fue encontrado</h2>
+            <a class="text2" id="text2">Ingresa el texto que desees encriptar o desencriptar.</a>
+            <button onclick="copiar()" id="botonCopia" >Copiar</button>
+        </div>     
+    </main>
+    <footer class="footer"> 
+      
+    </footer>
+</body>
+</html>
